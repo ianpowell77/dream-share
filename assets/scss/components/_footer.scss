@@ -1,0 +1,51 @@
+.footer {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	border-top: 3px solid #FF4E50;
+
+	&__title {
+		font-size: 16px;
+		color: #FF4E50;
+		font-family: $font-secondary;
+		text-transform: uppercase;
+		margin-bottom: 12px;
+		margin-top: 0;
+	}
+
+	&__subtitle {
+		font-family: $font-secondary;
+		color: #444;
+		font-weighT: bold;
+		margin-top: 0;
+	}
+
+	&__nav {
+
+		li {
+			display: inline-block;
+		}
+
+		li+li {
+			margin-left: 13px;
+		}
+		
+		li > a {
+			font-weight: 300;
+			font-size: 14px;
+			color: #999;
+		}
+	}
+
+	&__credits {
+		color: #CCCCCC;
+		text-transform: uppercase;
+		font-family: $font-secondary;
+		font-weight: bold;
+		font-size: 10px;
+		line-height: 13px;
+	}
+
+	&__logo {
+
+	}
+}

@@ -24,15 +24,30 @@
 		margin-bottom: 15px;
 	}
 
+	&__logo {
+		margin-bottom: 27px;
+	}
+
 	@media ( min-width: 642px ) {
 
 		&__title {
 			font-size: 52px;
 			line-height: 62px;
+			margin-bottom: 22px;
 		}
 
 		&__text {
 			font-size: 24px;
+			margin-bottom: 33px;
+		}
+
+		&__button {
+			width: 240px;
+			margin: 0 auto;
+		}
+
+		&__logo {
+			display: none;
 		}
 		
 	}
