@@ -48,4 +48,28 @@
 	&__logo {
 
 	}
+
+	@media ( min-width: 642px ) {
+
+		&__title {
+			text-align: left;
+		}
+
+		&__subtitle {
+			text-align: left;
+		}
+
+		&__nav {
+			margin: 0;
+
+			li {
+				display: block;
+			}
+
+			li+li {
+				margin-left: 0;
+			}
+		}
+
+	}
 }
